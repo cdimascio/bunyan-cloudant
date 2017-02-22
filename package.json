@@ -1,0 +1,41 @@
+{
+  "name": "bunyan-cloudant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdimascio/bunyan-couchdb.git"
+  },
+  "keywords": [
+    "bunyan",
+    "cloudant",
+    "couchdb",
+    "stream",
+    "log",
+    "logger",
+    "nodejs"
+  ],
+  "author": "Carmine DiMascio <cdimascio@gmail.com> (https://github.com/cdimascio)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdimascio/bunyan-couchdb/issues"
+  },
+  "homepage": "https://github.com/cdimascio/bunyan-couchdb#readme",
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
