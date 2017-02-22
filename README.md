@@ -24,9 +24,9 @@ const cloudantStream = new CloudantStream({
 export const L = bunyan.createLogger({
   name: 'my-app',
   streams: [{
-    stream: process.stdout
+    stream: process.stdout // stream to stdout
   }, {
-    stream: cloudantStream
+    stream: cloudantStream // and stream to cloudant
   }]
 });
 
