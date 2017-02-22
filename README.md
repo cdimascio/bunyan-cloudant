@@ -12,7 +12,7 @@ A "stream" is Bunyan's name for where it outputs log messages
 
 ```javascript
 const bunyan = require('bunyan');
-const CloudantStream = require('bunyan-cloudant);
+const CloudantStream = require('bunyan-cloudant');
 
 const cloudantStream = new CloudantStream({
   cloudant: {
